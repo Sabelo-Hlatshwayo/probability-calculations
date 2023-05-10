@@ -48,6 +48,11 @@ dexp(x=3, rate=2);
 # Calculate P(X<=3) using pexp(q, rate = 1, lower.tail = TRUE, log.p = FALSE)
 pexp(q=3, rate=2, lower.tail=TRUE);
 
+# Exercise 11
+# For X ~ Exponential(lambda = 2)
+# Determine x for which P(X<=x)=0.6 using qexp(p, rate = 1, lower.tail = TRUE, log.p = FALSE)
+qexp(p=0.6, rate=2, lower.tail=TRUE);
+
 
 
 
