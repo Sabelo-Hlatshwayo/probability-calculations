@@ -38,6 +38,10 @@ pnorm(q=120, mean=100, sd=12, lower.tail=TRUE) - pnorm(q=110, mean=100, sd=12, l
 # Determine x for which P(X<=x)=0.1
 qnorm(p=0.1, mean=100, sd=12);
 
+# Exercise 9
+# For X ~ Exponential(lambda = 2)
+# Calculate f(3) using dexp(x, rate = 1, log = FALSE)
+dexp(x=3, rate=2);
 
 
 
