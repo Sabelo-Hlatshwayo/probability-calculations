@@ -8,6 +8,10 @@ dbinom(x=0, size=4, prob=0.2) + dbinom(x=1, size=4, prob=0.2);
 # Calculate P(X <= 1) using pbinom(q, size, prob, lower.tail = TRUE, log.p = FALSE)
 pbinom(q=1, size=4, prob=0.2, lower.tail=TRUE);
 
+# Exercise 3
+# For X ~ Poisson(lambda = 4) 
+# Calculate P(X = 5) using dpois(x, lambda, log = FALSE)
+dpois(x=5, lambda=4);
 
 
 
