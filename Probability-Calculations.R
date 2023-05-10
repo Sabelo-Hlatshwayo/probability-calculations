@@ -13,6 +13,12 @@ pbinom(q=1, size=4, prob=0.2, lower.tail=TRUE);
 # Calculate P(X = 5) using dpois(x, lambda, log = FALSE)
 dpois(x=5, lambda=4);
 
+# Exercise 4
+# For X ~ Poisson(lambda = 4)
+# Calculate P(X >= 4) using ppois(q, lambda, lower.tail = TRUE, log.p = FALSE)
+1 - ppois(q=3, lambda=4, lower.tail=TRUE);
+
+
 
 
 
