@@ -53,6 +53,12 @@ pexp(q=3, rate=2, lower.tail=TRUE);
 # Determine x for which P(X<=x)=0.6 using qexp(p, rate = 1, lower.tail = TRUE, log.p = FALSE)
 qexp(p=0.6, rate=2, lower.tail=TRUE);
 
+# Exercise 12
+# Consider the continuous random variable X with probability density function f(x) = 3*x^(2) for 0<x<1
+# Calculate P(0.11<X<0.75)
+fx = function(x) {return(3*x^(2))}
+integrate(f=fx, lower=0.11, upper=0.75)
+
 
 
 
