@@ -33,7 +33,10 @@ dnorm(x=100, mean=100, sd=12);
 # Calculate P(110<=X<=120) using pnorm(q, mean = 0, sd = 1, lower.tail = TRUE, log.p = FALSE)
 pnorm(q=120, mean=100, sd=12, lower.tail=TRUE) - pnorm(q=110, mean=100, sd=12, lower.tail=TRUE);
 
-
+# Exercise 8
+# For X ~ Normal(mean = 100, sd = 12) 
+# Determine x for which P(X<=x)=0.1
+qnorm(p=0.1, mean=100, sd=12);
 
 
 
