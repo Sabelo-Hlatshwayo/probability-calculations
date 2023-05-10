@@ -23,6 +23,11 @@ dpois(x=5, lambda=4);
 # Determine x for which P(X <=x)>=0.9 using qpois(p, lambda, lower.tail = TRUE, log.p = FALSE)
 qpois(p=0.90, lambda=4, lower.tail=TRUE);
 
+# Exercise 6
+# For X ~ Normal(mean = 100, sd = 12) 
+# Calculate f(100) using dnorm(x, mean = 0, sd = 1, log = FALSE)
+dnorm(x=100, mean=100, sd=12);
+
 
 
 
