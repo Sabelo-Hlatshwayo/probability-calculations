@@ -43,6 +43,10 @@ qnorm(p=0.1, mean=100, sd=12);
 # Calculate f(3) using dexp(x, rate = 1, log = FALSE)
 dexp(x=3, rate=2);
 
+# Exercise 10
+# For X ~ Exponential(lambda = 2)
+# Calculate P(X<=3) using pexp(q, rate = 1, lower.tail = TRUE, log.p = FALSE)
+pexp(q=3, rate=2, lower.tail=TRUE);
 
 
 
