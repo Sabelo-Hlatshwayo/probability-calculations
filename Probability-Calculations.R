@@ -18,6 +18,11 @@ dpois(x=5, lambda=4);
 # Calculate P(X >= 4) using ppois(q, lambda, lower.tail = TRUE, log.p = FALSE)
 1 - ppois(q=3, lambda=4, lower.tail=TRUE);
 
+# Exercise 5
+# For X ~ Poisson(lambda = 4)
+# Determine x for which P(X <=x)>=0.9 using qpois(p, lambda, lower.tail = TRUE, log.p = FALSE)
+qpois(p=0.90, lambda=4, lower.tail=TRUE);
+
 
 
 
