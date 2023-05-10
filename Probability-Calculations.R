@@ -28,6 +28,10 @@ qpois(p=0.90, lambda=4, lower.tail=TRUE);
 # Calculate f(100) using dnorm(x, mean = 0, sd = 1, log = FALSE)
 dnorm(x=100, mean=100, sd=12);
 
+# Exercise 7
+# For X ~ Normal(mean = 100, sd = 12) 
+# Calculate P(110<=X<=120) using pnorm(q, mean = 0, sd = 1, lower.tail = TRUE, log.p = FALSE)
+pnorm(q=120, mean=100, sd=12, lower.tail=TRUE) - pnorm(q=110, mean=100, sd=12, lower.tail=TRUE);
 
 
 
